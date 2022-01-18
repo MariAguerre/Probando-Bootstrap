@@ -1,0 +1,45 @@
+
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+body{
+    background-color: yellow;
+}
+section{
+    padding-top: 50px;
+}
+
+h1{
+    color: black;
+}
+#contenidoSobreMi{
+    display: flex;
+    justify-content: center;
+}
+.sobreMi{
+    background-color: pink;
+    padding: 40px;
+    width: 60vw;
+    border-radius: 10px;
+}
+.cards{
+    margin: 40px;
+}
+.textoTienda{
+    background-color: pink;
+    padding: 40px;
+    width: 60vw;
+    border-radius: 10px;
+}
+@media only screen and (max-width:768px) and (min-width:576px){
+    body{
+        background-color: pink;
+    }
+    section div img{
+        width: 30%;
+    }
+}
